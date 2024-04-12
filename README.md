@@ -3,6 +3,12 @@ Bugzilla Markdownjs
 
 This is a markdown extension for bugzilla. All rendering is done client side through javascript. It dynamically adds markdown elements to comments and allows you to switch between the raw view and markdown. It has a live preview when submitting or commenting a bug.
 
+# Forked to Switch to Markdown-it
+
+Note: I (TB) forked this from the original Markdownjs extension because it depended
+on the unmaintained (for 10 years) markdownjs lib. Since I wanted to adjust the config,
+I switched to the actively maintained and more flexible markdown-it library.
+
 #Features
 
 * Markdown parsing of all comments
