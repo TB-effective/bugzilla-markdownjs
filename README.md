@@ -9,7 +9,7 @@ Note: I (TB) forked this from the original Markdownjs extension because it depen
 on the unmaintained (for 10 years) markdownjs lib. Since I wanted to adjust the config,
 I switched to the actively maintained and more flexible markdown-it library.
 
-#Features
+# Features
 
 * Markdown parsing of all comments
 * Ability to view raw comment text
@@ -17,24 +17,25 @@ I switched to the actively maintained and more flexible markdown-it library.
 * Unobtrusive & customizable styling
 * Formatting help information
 
-#Installation
+# Installation
 
 Copy the `Markdownjs` directory into `<bugzilla-root>/extensions` directory and run `checksetup.pl`.
 
-##Dependencies
+## Dependencies
 
 * [Jquery](http://jquery.com/) : v1.11.1
 * [Markdown-js](https://github.com/evilstreak/markdown-js): v0.6.0-beta1
 
-#Compatibility
+# Compatibility
 
 Tested with buzillia:
 
 * 4.4.4
+* TB: 5.0.6 (but needs some fine-tuning, see https://bugzilla.vircon.net/show_bug.cgi?id=13910 )
 
 Please help this module by testing on more versions.
 
-#Overview
+# Overview
 
 The extension finds all elements with the class `bz_commen_text`, takes their text passes it to markdown-js, and appends the markdown-js output into a new `div` after the comment. The raw comment is hidden by default. You can toggle between the markdown element and raw element by clicking on a link within the comment.
 
@@ -46,23 +47,23 @@ The styles.css set the white-space to normal, and change the font to be more rea
 
 **Note:** You could, in theory, remove jQuery and just use the YUI library included with bugzilla. I did not use the YUI because, well, I'm a lazy hack.
 
-#Known Issues & Bugs
+# Known Issues & Bugs
 
 Please report bugs in the github issue tracker. (I know it's blasphemy for a bugzilla extension, but give me a break.)
 
-#Release
+# Release
 
-###Current
+### Current
 
 v1.0.0 Stable Release 
 
-###Past Releases
+### Past Releases
 
 * v1.0.0 Stable Release
 * v0.1.0 Styling Release
 * v0.0.0 Initial Release
 
-#License
+# License
 
 The MIT License (MIT)
 
