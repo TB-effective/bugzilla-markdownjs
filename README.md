@@ -28,7 +28,7 @@ Copy the `Markdownjs` directory into `<bugzilla-root>/extensions` directory and 
 
 # Compatibility
 
-Tested with buzillia:
+Tested with bugzilla:
 
 * 4.4.4
 * TB: 5.0.6 (but needs some fine-tuning, see https://bugzilla.vircon.net/show_bug.cgi?id=13910 )
